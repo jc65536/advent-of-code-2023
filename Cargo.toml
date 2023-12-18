@@ -4,6 +4,10 @@ version = "0.1.0"
 edition = "2021"
 
 [[bin]]
+name = "test"
+path = "src/test.rs"
+
+[[bin]]
 name = "day-01"
 path = "src/day-01.rs"
 
@@ -18,6 +22,10 @@ path = "src/day-03.rs"
 [[bin]]
 name = "day-04"
 path = "src/day-04.rs"
+
+[[bin]]
+name = "day-05"
+path = "src/day-05.rs"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
