@@ -1,4 +1,4 @@
-open Aoc.Input
+open Aoc.Util
 
 type hand = { cards : int list; bid : int }
 
