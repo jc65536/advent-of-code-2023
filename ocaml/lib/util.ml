@@ -12,3 +12,7 @@ let print_list f l =
         l;
       print_string " ]"
   | _ -> print_string "[]"
+
+let println_list f l =
+  print_list f l;
+  print_endline ""
